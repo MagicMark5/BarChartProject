@@ -36,10 +36,16 @@ div {
 }
 
 .axes {
-  width: 25vw;
-  height: 25vw;
+  width: 30vw;
+  height: 30vw;
   margin: 10em auto;
   border-top: 0px;
   border-right: 0px;
+}
+
+.bar {
+  position: relative;
+  top: 93%;
+  transform: translateY(-93%);
 }
 
