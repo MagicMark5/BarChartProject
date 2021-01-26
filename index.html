@@ -10,7 +10,33 @@
 
     <div class="container">
 
-      <div class="options"></div>
+      <div class="options">
+        <label class="option" for="height">Chart Height</label>
+        <label class="option" for="width">Chart Width</label>
+        <input class="option" name="height" type="number" value=40>
+        <input class="option" name="width" type="number" value=40>
+        <label class="option" for="x-axis">X Label</label>
+        <label class="option" for="y-axis">Y Label</label>
+        <input class="option" name="x-axis" type="string" value="X-axis Label">
+        <input class="option" name="y-axis" type="string" value="Y-axis Label">
+        <label class="option" for="bar-colour">Bar Colour</label>
+        <label class="option" for="label-colour">Label Colour</label>
+        <input class="option" type="color" id="bar-colour" name="bar" value="#e66465">
+        <input class="option" type="color" id="label-colour" name="label" value="#f6b73c">
+
+
+        <section class="value-position">
+          <span id="value-placement"><b>Value Placement</b></span>
+
+          <label for="top">Top</label>
+          <label for="middle">Middle</label>
+          <label for="bottom">bottom</label>
+          <input id="top" name="position" type="checkbox" value="Top">
+          <input id="middle" name="position" type="checkbox" value="Middle">
+          <input id="bottom" name="position" type="checkbox" value="bottom">
+        </section>
+
+      </div>
 
       <div class="axes" id="chart"></div>
 
